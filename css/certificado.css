@@ -1,0 +1,61 @@
+@import "./global.css";
+@import "./header.css";
+@import "./contato.css";
+@import "./rodape.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Poppins:wght@700&display=swap");
+
+.certificado {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.certificado-items {
+  margin-top: 100px;
+}
+
+.certificado-items h1 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #0038c8;
+}
+
+.certificado-items h3 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-bottom: 30px;
+  color: #141414;
+}
+
+.certificado-items-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 40px;
+}
+
+.certificado-items-img a {
+  transition: scale 0.2s;
+}
+
+.certificado-items-img a:hover {
+  scale: 0.95;
+}
+
+@media (max-width: 1200px) {
+  .certificado-items h1,
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .certificado-items-img {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+}

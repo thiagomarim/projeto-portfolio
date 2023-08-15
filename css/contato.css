@@ -1,0 +1,104 @@
+.contato {
+  background-color: white;
+  margin-top: 300px;
+}
+
+.contato-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.contato-logo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.contato-logo a {
+  color: #141414;
+}
+
+.contato-navegacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contato-navegacao h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.contato-navegacao a {
+  font-size: 1.12rem;
+  line-height: 1.3rem;
+  color: #7a7a7a;
+}
+
+.contato-navegacao a:hover {
+  color: #0038c8;
+}
+
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contato-info h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.contato-info p {
+  font-size: 1.12rem;
+  line-height: 1.3rem;
+  color: #525252;
+}
+
+@media (max-width: 1230px) {
+  .contato {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 765px) {
+  .contato-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .contato-card {
+    padding: 30px 20px;
+    gap: 50px;
+  }
+
+  .contato-logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .contato-navegacao h1 {
+    font-size: 1.3rem;
+  }
+
+  .contato-navegacao a {
+    font-size: 1rem;
+  }
+
+  .contato-info h1 {
+    font-size: 1.3rem;
+  }
+
+  .contato-info p {
+    font-size: 1rem;
+  }
+}
