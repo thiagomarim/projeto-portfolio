@@ -1,2 +1,2 @@
 # projeto-portfolio
- Minha primeira criação de portfolio.
+Meu primeiro prototipo de portfílio.
