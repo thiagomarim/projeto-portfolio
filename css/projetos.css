@@ -23,7 +23,7 @@
   flex-direction: column;
   gap: 40px;
   justify-content: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 .projeto-subtitulo {
@@ -34,7 +34,7 @@
 }
 
 .card-informacoes {
-  max-width: 300px;
+  max-width: 100%;
 }
 
 .card-informacoes-titulo {
